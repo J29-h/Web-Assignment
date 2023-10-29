@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jana Malibari Web Page</title>
+    <!--CSS Stylesheet Link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="Main.html" class="logo">G!NG3R</a>
+        <ul>
+            <li><a href="Main.html" class="active">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Work.html">Work</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li class="bx bx-menu" id="menu-icon"></li>
+
+        </ul>
+    </header>
+    <section>
+        <img src="Stars.png" id="Stars" alt="The Stars">
+        <img src="Cloud.png" id="Cloud" alt="The Clouds">
+        <img src="Montain-Behinde.png" id="Montain-Behinde" alt="The Mountins">
+        <img src="Smoke.png" id="Smoke" alt="Smokes Mixed With Clouds">
+        <a href="#sec" id="btn">Scroll</a>
+        <h2 id="text">MY FIRST WEB PAGE</h2>
+        <img src="Montain.png" id="Montain" alt=" Another Mountins">
+        <img src="Lake-House.png" id="House" alt=" Lake House">
+    </section>
+    <div class="sec" id="sec">
+        <h2>What Will Be Covered:</h2>
+        <p> o Create Website Pages.</p>
+        <p> o The Website Pages Must Includes The Following:</p>
+        <p>   § Personal Info: Name, Image (Optional), & Aims/Objectives.</p>
+        <p>   § Education: Discuss Your Education (Start,End,Degree,Institute,etc)</p>
+        <p>   & Any Courses, Certificates, Or Awards.</p>
+        <p>   § Projects: List Your Projects Or Assignments (Minimum Of 2).</p>
+        <p> This Can Include Projects From Other Courses That You Are Taking Or Have Completed.</p>
+        <p> For Each Project Include The Following:</p>
+        <p> • Title.</p>
+        <p> • Image To Represent It (Optional).</p>
+        <p> • Description.</p>
+        <p> • Link To Any Files, e.g., Presentation Or GitHub Repo (If Any).</p>
+        <p>   § Contact Info: Offer a Way To Contact You. List Your Social Media Accounts As Icon Links Or Create a
+              Contact Me Form.</p>
+    </div>
+    <script>
+        let Stars = document.getElementById('Stars');
+        let Cloud = document.getElementById('Cloud');
+        let Montain_Behinde = document.getElementById('Montain-Behinde');
+        let Smoke = document.getElementById('Smoke');
+        let text = document.getElementById('text');
+        let Montain = document.getElementById('Montain');
+        let Lake_House = document.getElementById('House');
+
+        window.addEventListener('scroll', function () {
+
+            let value = window.scrollY;
+            Stars.style.right = value * 0.25 + 'px';
+            Cloud.style.right = value * 1.5 + 'px';
+            text.style.marginTop = value * 4 + 'px';
+            btn.style.marginTop = value * 4 + 'px';
+        })
+    </script>
+</body>
+
+</html>
+

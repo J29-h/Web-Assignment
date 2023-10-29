@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #b3d0de 0%, #3f97e9 28.53%, #1c7392 75.52%, #152538);
+}
+
+.logo {
+    color: #ffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header .logo {
+    color: #ffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    color: #1c7392;
+    background: #fff;
+}
+
+#menu-icon {
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 20px;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+#menu-icon:hover {
+    color: #1c7392;
+    background: #fff;
+}
+
+.Personal h1 {
+    color: #fff;
+    margin-top: 190px;
+    margin-bottom: -160px;
+    margin-left: 490px;
+}
+
+.section-wrapper01 {
+    margin: 210px;
+    margin-bottom: 160px;
+    margin-left: 135px;
+    margin-right: 100px;
+}
+
+.Info {
+    margin-top: -270px;
+    margin-left: 390px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section-wrapper02 {
+    margin: 0;
+    margin-bottom: 190px;
+    margin-left: 850px;
+    margin-right: 100px;
+}
+
+.section-wrapper02 img {
+    margin-top: 0;
+}
+
+.aim {
+    margin-top: -270px;
+    margin-left: -550px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section-wrapper03 {
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.learn {
+    margin-left: 525px;
+    margin-top: -270px;
+    margin-bottom: 180px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
